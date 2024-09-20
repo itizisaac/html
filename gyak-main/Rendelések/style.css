@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+* {
+    background-color: lightgray;
+}
+
+.kepek {
+    width: 120px;
+    text-align: center;
+}
+
+
+.nev {
+    width: 200px;
+    text-align: center;
+}
+
+.amount {
+    width: 100px;
+    text-align: center;
+}
+
+table {
+    width: 800px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.kep {
+    width: 120px;
+}
+
+img {
+    height: 75px;
+}
+
+.nev {
+    width: 200px;
+}
+.mennyi {
+    width: 100px;
+}
+.netto {
+    width: 100px;
+}
+.áfa {
+    width: 50px;
+}
+.brutto {
+    width: 100px;
+}
+
+.ossz {
+    text-align: right;
+}
+
+h3 {
+    margin-left: 180px;
+}

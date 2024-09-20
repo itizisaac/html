@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-position-x: 250px;
+    background-image: url(kepek/baseball-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px;
+}
+
+#content {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.85);
+    width: 800px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+
+.frame {
+    padding:20px;
+    margin:10px;
+    float: right;
+    width: 150px;
+    border-right: 2px solid red;
+}
+
+.frame img{
+    width: 150px;
+}
+
+.imgcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.kiemelt {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.kiemelt:hover {
+    color: red;
+}
