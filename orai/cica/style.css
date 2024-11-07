@@ -1,0 +1,46 @@
+section {
+    background-color: rgba(102, 102, 99, 0.5);
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    color: white;
+}
+
+body {
+    background-image:url('bc1.gif');
+    background-position: center;
+    background-size: cover;
+    }
+
+
+h1,h2 {
+    text-align: center;
+}
+
+
+.fenykep {
+    width: 340px;
+    height: 220px;
+    box-shadow: 0 4px 8px 4px rgba(165, 165, 165, 0.5);
+}
+
+figure {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.jellemzo {
+    margin-top: 20px;
+}
+
+.jellemzotext {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
