@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>A Gépjármű gyógyító</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 align-self-center">
+                <h2>Rólunk</h2>
+                <p>A Gépjármű gyógyító Autószerviz 2005-ben kezdte meg tevékenységét a járművek karbantartása és javítása területén.</p> 
+                <p>Azóta elkötelezett küldetésünk, hogy kiváló minőségű szolgáltatást nyújtsunk ügyfeleinknek, és gondoskodjunk arról, hogy járműveik mindig a legjobb állapotban legyenek.</p>
+                <p>A különleges szakértelmünk az olajcserék precíz végrehajtásában és a futóműjavítás terén rejlik, biztosítva, hogy ügyfeleink járművei mindig optimális teljesítményt nyújtsanak az utakon. Szervizünk emellett specializálódott autók fékrendszerének hatékony és biztonságos karbantartására is.</p>
+            </div>
+            <div class="col-md-4 align-self-center kep-jobb">
+                <!-- Kép helye -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 align-self-center kep-bal">
+                <h2>A motor lelke</h2>
+                <p>A motorolaj csereperiódus rendkívül fontos az autó motorjának egészségének és hosszú élettartamának megőrzése szempontjából. Az olaj egy kritikus szerepet játszik a motor megfelelő működésében, és számos kulcsfontosságú funkciót lát el.</p>
+                <p>Az olaj idővel elveszíti teljesítményét, és a motorolajban lévő vegyületek is lebomlanak. Ennek eredményeként az olaj kenőhatása csökken, és növekszik a kopás veszélye. A motorolaj cseréje időszakonként tehát elengedhetetlen ahhoz, hogy a motor hatékonyan működjön, és hosszú élettartamot biztosítson.</p>
+            </div>
+            <div class="col-md-6 align-self-center">
+                <img src="olaj.png" class="img-fluid" alt="Motorolaj" title="Motorolaj">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 align-self-center">
+                <h2>Referencia</h2>
+                <p>Örömmel tájékoztatjuk, hogy az általunk javított autók száma folyamatosan növekszik, és büszkék vagyunk arra, hogy már számos elégedett ügyfelet szolgálhattunk ki a megbízható és professzionális szervizszolgáltatásainkkal.</p>
+                <fieldset>
+                    <p>Legtöbbet javított autómárkák általunk:</p>
+                    <div class="card">
+                        <table>
+                            <tr>
+                                <td>Autómárka:</td>
+                                <td><span id="gyarto">Ford</span></td>
+                            </tr>
+                            <tr>
+                                <td>Javított mennyiség:</td>
+                                <td><span id="mennyiseg">231 db</span></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p class="text-center">
+                            <input type="range" min="2" oninput="frissit(this.value);">
+                        </p>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4 align-self-center kep-jobb">
+                <img src="marka-3.png" id="marka" class="img-fluid" alt="Autómárka" title="Autómárka">
+            </div>
+        </div>
+    </div>
+    <footer class="jumbotron">
+        <p class="text-center">Ágazati vizsga 2023 / 2024. tanév - School of Business</p> <!-- https://sobszeged.hu/ -->
+    </footer>
+</body>
+</html>

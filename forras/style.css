@@ -1,0 +1,105 @@
+body {
+    background-color: rgba(169, 169, 169, 0.25);
+}
+
+header.jumbotron{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    background-color: darkgrey;
+    padding: 15px;
+
+}
+
+header h1 {
+    text-shadow: 2px 2px 2px black;
+    padding: 50px;
+    text-align: right;
+}
+
+div.row{
+    margin-bottom: 25px;
+}
+
+p {
+    margin: 10px;
+    text-indent: 20px;
+}
+
+h2 {
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+}
+
+.kep-jobb {
+    border-left: 15px solid rgba(255, 255, 0, 0.75);
+    border-radius: 20px;
+    background-color: rgb(190, 190, 190);
+    padding: 35px 10px;
+    text-align: center;
+}
+
+.kep-bal {
+    border-right: 15px solid rgba(255, 255, 0, 0.75);
+    border-radius: 20px;
+    background-color: rgb(190, 190, 190);
+    padding: 25px 10px;
+    text-align: center;
+}
+
+fieldset {
+    background-color: darkgrey;
+    margin: 20px;
+}
+
+legend {
+    background-color: darkgrey;
+    border-radius: 20px;
+    padding-left: 15px;
+    color:yellow;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card {
+    margin: 5px;
+    padding: 10px;
+}
+
+input[type="range"] {
+    width: 75%;
+}
+
+table tr td:first-child {
+    text-align: right;
+    width: 33%;
+    padding-right: 10px;
+}
+
+#marka, #mennyiseg {
+    color: darkslategrey;
+}
+
+footer.jumbotron {
+    background-image: url('background.png');
+    transform:scaleX(-1);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-y: center;
+    background-color: darkgrey;
+    padding: 10px;
+    margin: 0px;
+    font-style: italic;
+    text-align: center;
+}
+
+footer p {
+    transform:scaleX(-1);
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer a[href] {
+    text-shadow: 2px 2px 2px black;
+    color:  yellow;
+}
